@@ -18,6 +18,7 @@ inDiv.addEventListener('click', function(e) {
 })
 
 let outDivStop = document.getElementById('outStop');
+let inDivStop = document.getElementById('inStop');
 
 outDivStop.addEventListener('click', function(e) {
     console.log(`Event target is #${e.target.id}; Handler is #${this.id}`)
@@ -26,8 +27,6 @@ outDivStop.addEventListener('click', function(e) {
         outDivStop.style.background = '';
     }, 2000)
 })
-
-let inDivStop = document.getElementById('inStop');
 
 inDivStop.addEventListener('click', function(e) {
     console.log(`Event target is #${e.target.id}; Handler is #${this.id}`)
