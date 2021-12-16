@@ -1,0 +1,39 @@
+#out {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px red solid;
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+#in {
+    border: 5px blue solid;
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+}
+
+#outStop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px red solid;
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+#inStop {
+    border: 5px blue solid;
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+}
+
+p {
+    font-size: 2rem;
+}
